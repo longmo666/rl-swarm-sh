@@ -151,4 +151,3 @@ echo "2. 在新的 screen 会话中执行: ngrok http 3000"
 echo "3. 复制生成的 ngrok 域名链接，在浏览器中打开并完成邮箱登录验证"
 echo "4. 验证完成后，按 Ctrl+A+D 退出 ngrok screen"
 echo "5. 输入命令: screen -r gensyn 回到原先的会话继续运行"
-
