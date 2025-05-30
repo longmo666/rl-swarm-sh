@@ -136,6 +136,8 @@ screen -S gensyn bash -c '
   echo "🔧 设置 PyTorch MPS 环境变量（Linux 可省略或注释）..."
   export PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0
   export PYTORCH_ENABLE_MPS_FALLBACK=1
+  export CUDA_VISIBLE_DEVICES=""
+  export CPU_ONLY=true
   npm install @solana/codecs-numbers
   echo "🚀 启动 RL-Swarm..."
   chmod +x run_rl_swarm.sh
