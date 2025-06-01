@@ -95,6 +95,7 @@ if [[ -d "rl-swarm" ]]; then
 fi
 
 echo "📥 克隆 rl-swarm 仓库..."
+rm -rf /root/rl-swarm-new  
 git clone https://github.com/longmo666/rl-swarm-new.git
 cp -r /root/rl-swarm /root/rl-swarm-backup  # 备份旧数据
 # ----------- 修改配置文件 ----------- 
