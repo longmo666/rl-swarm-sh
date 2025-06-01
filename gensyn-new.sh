@@ -96,7 +96,7 @@ fi
 
 echo "📥 克隆 rl-swarm 仓库..."
 git clone https://github.com/longmo666/rl-swarm-new.git
-
+mv /root/rl-swarm-new /root/rl-swarm
 # ----------- 修改配置文件 ----------- 
 echo "📝 修改 YAML 配置..."
 sed -i 's/max_steps: 20/max_steps: 5/' rl-swarm/hivemind_exp/configs/mac/grpo-qwen-2.5-0.5b-deepseek-r1.yaml
