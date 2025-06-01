@@ -6,4 +6,4 @@ curl -sLO https://raw.githubusercontent.com/longmo666/rl-swarm-sh/main/gensyn.sh
 
 #新机器用
 
-curl -sLO https://raw.githubusercontent.com/longmo666/rl-swarm-sh/main/gensyn-new.sh && chmod +x gensyn-new.sh && ./gensyn-new.sh
+curl -sL https://raw.githubusercontent.com/longmo666/rl-swarm-sh/main/gensyn-new.sh -o gensyn-new.sh && chmod +x gensyn-new.sh && ./gensyn-new.sh
