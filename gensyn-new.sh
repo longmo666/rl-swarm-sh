@@ -96,6 +96,7 @@ fi
 
 echo "📥 克隆 rl-swarm 仓库..."
 rm -rf /root/rl-swarm-new
+rm -rf /root/rl-swarm
 git clone https://github.com/longmo666/rl-swarm-new.git
 mv /root/rl-swarm-new /root/rl-swarm  # 直接重命名（无需复制） # 备份旧数据
 # ----------- 修改配置文件 ----------- 
